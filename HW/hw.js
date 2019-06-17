@@ -39,3 +39,78 @@ console.log(arr);
 str = "hi, world";
 
 console.log(str.toUpperCase());
+
+//Screening
+
+console.log("Dragon's \"on\" my way's");
+
+console.log("\"Khal Drogo's favorite word is \"athjahakar\"\"");
+
+//Screening sequences
+
+console.log("-Are you hungry?\n-Yeeeeees");
+
+
+console.log("");
+console.log("Dunckan");
+
+console.log("- Did Joffrey agree?\n- He did. He also said \"I love using \\n\".");
+
+console.log("Hi" + ",Peter");
+
+console.log(String.fromCharCode(62));
+
+let greeting = "Father";
+
+console.log(greeting);
+
+let motto = "What Is Dead May Never Die!";
+console.log(motto);
+
+motto = "What are you doing?";
+
+console.log(motto);
+
+// Euro + Dollars
+
+let dollars = 50 * 1.25;
+let rublesPerDollars = 60;
+let rubles = dollars * rublesPerDollars;
+console.log(dollars, "\nThe price is " + rubles + " rub");
+
+
+// Testing my skills
+let info = "We couldn't verify you mother's maiden name.";
+let intro = 'Here is important information about your account security.';
+
+let firstName2 = 'Joffrey';
+let greeting2 = 'Hello';
+
+console.log(greeting2 + "," + firstName2 + "!" + "\n" + intro + "\n" + info);
+
+let firstName = 11;
+let secondName = -100;
+
+console.log(firstName * secondName);
+
+// Kings rooms
+
+let king = 'King Balon the 6th';
+let numberKing = 6;
+let numberCastles = 17;
+
+console.log(king + ' has ' + (numberKing * numberCastles ) + ' rooms.');
+
+
+const army = 'the white walkers';
+
+console.log(army);
+
+
+const firstName3 = 'Joffrey';
+const greeting3 = 'Hello';
+
+console.log(`${greeting3}, ${firstName3}!`);
+
+const nameOfKing = "Hello, monkey";
+console.log(nameOfKing[8]);
