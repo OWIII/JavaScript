@@ -156,6 +156,20 @@ console.log(resultOld);
 const min = Math.min(3, 10, 22, -3, 0 );
 console.log(min);
 
+// Function in function
+
+const text = "hello";
+const upperText = text.toUpperCase();
+console.log(upperText);
+
+// Type
+
+const motta = true;
+console.log(typeof(motta));
+
+
+
+
 
 
 
