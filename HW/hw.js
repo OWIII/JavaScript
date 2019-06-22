@@ -21,7 +21,8 @@ console.log((5 ** 2) - (3 * 7));
 var obj = {
     prop: "Hi, world"
 };
-var fu = function() {};
+var fu = function () {
+};
 var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 obj.prop = "Goodbuy";
@@ -99,7 +100,7 @@ let king = 'King Balon the 6th';
 let numberKing = 6;
 let numberCastles = 17;
 
-console.log(king + ' has ' + (numberKing * numberCastles ) + ' rooms.');
+console.log(king + ' has ' + (numberKing * numberCastles) + ' rooms.');
 
 
 const army = 'the white walkers';
@@ -114,3 +115,52 @@ console.log(`${greeting3}, ${firstName3}!`);
 
 const nameOfKing = "Hello, monkey";
 console.log(nameOfKing[8]);
+
+//data types
+
+console.log(2.333);
+console.log("2.333");
+console.log(116);
+
+let number = "10";
+let number2 = number;
+console.log(number2);
+
+// Famillia
+
+let sunameFirst = "Karavai";
+let sunameSecond = "Petrov";
+let sunameThird = "Ivanov";
+
+console.log(sunameFirst[2] + sunameSecond[1] + sunameThird[3]
+    + sunameSecond[4] + sunameSecond[2]);
+
+// Type
+
+console.log("7" - (-8 - (-2)));
+
+// Function
+
+const result = Math.pow(2, 5);
+console.log(result);
+
+
+// Function 1.2
+
+const old = 3.4;
+const resultOld = Math.ceil(old);
+console.log(resultOld);
+
+// Min - Max
+
+const min = Math.min(3, 10, 22, -3, 0 );
+console.log(min);
+
+
+
+
+
+
+
+
+
