@@ -302,6 +302,56 @@ const convertText = (sentenceMain) => {
 console.log(convertText("politica"));
 
 
+//Cycle
+const printNumbers = (number_r) => {
+    let i = number_r;
+
+    while (i >= 1) {
+        console.log(i);
+        i = i - 1;
+    }
+};
+
+printNumbers(9);
+
+//
+
+const mysubstr = (stroke, numberStroke) => {
+    let index = 0;
+    let symbol = "";
+    while (index < numberStroke) {
+        symbol = `${symbol}${stroke[index]}`;
+        index = index + 1;
+    }
+    console.log(symbol);
+};
+
+mysubstr("Приветики", 8);
+
+//
+
+const mysubstrNew = (strokeNew, indexNew, lengthNew) => {
+    let paradox = strokeNew.length;
+    if ((lengthNew >= 0) && (indexNew >= 0) && (indexNew <= paradox) && (lengthNew + indexNew <= paradox)) {
+        let stroken = "";
+        let lengthSecond = indexNew + lengthNew - 1;
+
+        while (indexNew <= lengthSecond) {
+            stroken = `${stroken}${strokeNew[indexNew]}`;
+            indexNew = indexNew + 1;
+        }
+        console.log(stroken);
+    } else console.log("False");
+
+};
+
+mysubstrNew("Карамбарана", -1, 3);
+
+
+
+
+
+
 
 
 
