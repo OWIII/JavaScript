@@ -153,7 +153,7 @@ console.log(resultOld);
 
 // Min - Max
 
-const min = Math.min(3, 10, 22, -3, 0 );
+const min = Math.min(3, 10, 22, -3, 0);
 console.log(min);
 
 // Function in function
@@ -166,6 +166,145 @@ console.log(upperText);
 
 const motta = true;
 console.log(typeof(motta));
+
+// Properties
+
+const proper = "Hello";
+console.log(proper.length);
+
+const trim = "Хачапури             ";
+console.log(trim);
+
+// Properties 2
+
+const name2 = "Owiii";
+nameLength = name2.length + 5;
+console.log(nameLength);
+console.log(`Hi, ${name2}`);
+console.log("Hi, " + name2.toUpperCase());
+
+// Trim
+
+const sentence = "Привет, как у тебя дела?";
+console.log(sentence.substring(8, 18).length);
+
+
+// Functions
+
+// Определяем функцию
+
+const showMyText = () => {
+    const text_1 = "It's my first function";
+    console.log(text_1);
+};
+// Вызываем функцию
+showMyText();
+
+const showTodayDate = (date) => {
+    console.log("Today is " + date);
+};
+
+showTodayDate("6 December");
+
+const printSeq = (str, numberRepeat) => {
+    console.log(str.repeat(numberRepeat));
+};
+
+printSeq("OWIII ", 24);
+
+
+const sub4 = (a, b) => {
+    const result = a - b;
+    return result;
+};
+
+const result_num = sub4(10, 7);
+console.log(result_num);
+
+// Test
+
+const hiddenNumberCard = (numberCard, number = 4) => {
+    lost_path = numberCard.slice(-4);
+    maskNumber = lost_path.padStart(number + 4, "*");
+    console.log(maskNumber);
+};
+
+hiddenNumberCard("123456789987654");
+
+// Boolean
+
+const isInfant = (age) => age < 1;
+console.log(isInfant(0.2));
+
+//
+
+const isMister = (wordName) => wordName === "Mister";
+console.log(isMister("Mister"));
+
+//
+
+const hasTargaryenReference = (string) => {
+    console.log(string.substring(0, 9) === "Targaryen");
+
+};
+
+hasTargaryenReference("TargaryenKilimangjaro");
+
+//
+
+const isLannisterSoldier = (color, shield) => {
+    answer = (color === "red" && shield === "null");
+    console.log(answer);
+};
+
+isLannisterSoldier("red", "null");
+
+//
+
+const isNeutralSoldier = (colorArmor, colorShield) => {
+    answerN = colorArmor !== "red" && colorShield === "black";
+    console.log(answerN);
+};
+
+isNeutralSoldier("yellow", "black");
+
+//
+
+const getSentenceTone = (sentence5) => {
+    if (sentence5.toUpperCase() === sentence5) {
+        return "Scream";
+    }
+    return "Normal";
+};
+
+console.log(getSentenceTone("HR"));
+
+//
+
+const normalizeUrl = (urlSite) => {
+    if (urlSite.substring(0, 7) === "http://") {
+        return urlSite;
+    }
+    else return "http://" + urlSite;
+};
+
+console.log(normalizeUrl("rutracker.net"));
+
+// If Else
+
+const convertText = (sentenceMain) => {
+    if (sentenceMain.substring(0, 1) !== sentenceMain.substring(0, 1).toUpperCase()) {
+        return sentenceMain.split("").reverse().join("");
+    } else return sentenceMain;
+
+};
+
+console.log(convertText("politica"));
+
+
+
+
+
 
 
 
