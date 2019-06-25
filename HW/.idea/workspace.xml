@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33b41cf7-491c-4b1b-b35b-13843a56f52d" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/hw.js" beforeDir="false" afterPath="$PROJECT_DIR$/hw.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="hw.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hw.js">
+      <file leaf-file-name="lesson2.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lesson2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="345" column="2" lean-forward="true" selection-start-line="345" selection-start-column="2" selection-end-line="345" selection-end-column="2" />
+            <state relative-caret-position="470">
+              <caret line="57" column="19" lean-forward="true" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -35,6 +36,8 @@
       <list>
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/hw.js" />
+        <option value="$PROJECT_DIR$/lesson.2" />
+        <option value="$PROJECT_DIR$/lesson2.js" />
       </list>
     </option>
   </component>
@@ -47,11 +50,13 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="width" value="683" />
     <option name="height" value="768" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -77,8 +82,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.lesson2">
     <configuration name="hw.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="hw.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="lesson2" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="lesson2.js" working-dir="$PROJECT_DIR$" />
+    <list>
+      <item itemvalue="Node.js.hw.js" />
+      <item itemvalue="Node.js.lesson2" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.hw.js" />
@@ -97,12 +107,13 @@
       <updated>1561200326740</updated>
       <workItem from="1561200327979" duration="476000" />
       <workItem from="1561200831462" duration="8301000" />
-      <workItem from="1561346811412" duration="13956000" />
+      <workItem from="1561346811412" duration="14578000" />
+      <workItem from="1561437693019" duration="4835000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22733000" />
+    <option name="totallyTimeSpent" value="28190000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="683" height="768" extended-state="0" />
@@ -113,7 +124,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24617738" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24617738" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -136,6 +147,13 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/hw.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6840">
+          <caret line="342" column="29" lean-forward="true" selection-start-line="342" selection-start-column="29" selection-end-line="342" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hw.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3380">
           <caret line="169" lean-forward="true" selection-start-line="169" selection-end-line="169" />
         </state>
@@ -148,6 +166,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lesson.2" />
+    <entry file="file://$PROJECT_DIR$/hw.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6840">
+          <caret line="342" column="29" lean-forward="true" selection-start-line="342" selection-start-column="29" selection-end-line="342" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -155,10 +181,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hw.js">
+    <entry file="file://$PROJECT_DIR$/lesson2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="345" column="2" lean-forward="true" selection-start-line="345" selection-start-column="2" selection-end-line="345" selection-end-column="2" />
+        <state relative-caret-position="470">
+          <caret line="57" column="19" lean-forward="true" selection-start-line="57" selection-start-column="19" selection-end-line="57" selection-end-column="19" />
         </state>
       </provider>
     </entry>
