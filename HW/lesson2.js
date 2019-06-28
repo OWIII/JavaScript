@@ -57,3 +57,24 @@ const sumOfSeries = (firstNumber, lastNumber) => {
 
 sumOfSeries(-4, 7);
 
+
+//
+
+function squareDigits(num) {
+    let numToStr = num + '';
+    let lengthNum = numToStr.length - 1;
+    let numberEnd = '';
+    let i = 0;
+
+    while ( i <= lengthNum) {
+        let strToNum = Number(numToStr[i]);
+        let squareNum = Math.pow(strToNum, 2);
+        numberEnd = numberEnd + squareNum;
+        i = i + 1;
+    }
+    console.log(numberEnd);
+};
+
+squareDigits(9414);
+
+
