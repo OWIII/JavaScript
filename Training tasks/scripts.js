@@ -40,7 +40,43 @@
 // delete b.tolken;
 // console.log(a, b, c);
 
-var monkey = 987;
+// var monkey = 987;
+
+// Arrays
+
+// let array = [1, 2, 3, 4, 'golem', true, 73 ];
+// let arrayMatrix = [
+//     [1, 3, 5, 6],['arr', 'gegeg', 'erer'],[45, 64, 56],[545, 6565, 6566]
+// ];
+
+// array[7] = 'addElementOfArray';
+// array.splice(1,2);
+
+// let newArray = arrayMatrix.concat(array);
+
+// console.log(newArray);
+
+// let arrayWithoutEndElement = array.unshift('Привет');
+//
+// console.log(array);
+
+// var i;
+//
+// for (i = 0; i <= 10; i++) {
+//     console.log(i);
+// };
+
+let obj = {
+    propp : 'one',
+    proppSecond : 'two'
+};
+var prod;
+
+for ( prod in obj) {
+    console.log( prod + ' : ' + obj[prod]);
+}
+
+
 
 
 
