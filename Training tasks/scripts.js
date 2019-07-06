@@ -134,6 +134,26 @@
 //
 // oddCount(15);
 
+// let doc = document;
+// let elem = doc.createElement('p');
+// //let content = doc.createTextNode('Шестой');
+// let insId = doc.getElementById('four');
+// elem.innerHTML = '<strong>БУБАЛЬТРОН</strong>';
+// //elem.appendChild(content);
+//
+// //insId.parentNode.appendChild(elem);
+// insId.parentNode.insertBefore(elem, insId);
+// //insId.parentNode.replaceChild(elem, insId);
+//
+// insId.parentNode.removeChild(elem);
+
+let add = document.getElementById('four');
+
+add.classList.add('css-class');
+add.classList.add('css-second');
+add.classList.toggle('css-second');
+
+
 
 
 
