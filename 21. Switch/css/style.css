@@ -1,0 +1,20 @@
+.day {
+  background-color: white;
+  color: black;
+
+  font-size: 50px;
+}
+
+.night {
+  background-color: black;
+  color: white;
+
+  font-size: 50px;
+}
+
+
+#box {
+  margin-top: 200px;
+  margin-left: 50px;
+
+}
