@@ -147,11 +147,60 @@
 //
 // insId.parentNode.removeChild(elem);
 
-let add = document.getElementById('four');
+// let add = document.getElementById('four');
+//
+// add.classList.add('css-class');
+// add.classList.add('css-second');
+// add.classList.toggle('css-second');
 
-add.classList.add('css-class');
-add.classList.add('css-second');
-add.classList.toggle('css-second');
+
+// function fn() {
+//     let sum = 0;
+//     for (let i = 0; i < arguments.length; i++ ) {
+//         sum += arguments[i];
+//     }
+//     return sum;
+// }
+//
+// let result = fn(2, 6, 6, 3, 1, 4, 6);
+// console.log(result);
+
+// Declaration
+// function fn(otherFn) {
+//     otherFn();
+// }
+//
+// fn(() => console.log("Привет"));
+
+
+// Expression
+// let fn2 = function fn2(a, b) {
+//     return a + b;
+// };
+//
+// result1 = fn(1, 2);
+// result2 = fn2(1, 2);
+//
+// console.log(result1);
+// console.log(result2);
+
+function showDifference(a, b) {
+    binaryNumber1 = a.toString(2);
+    binaryNumber2 = b.toString(2);
+
+    let left = '';
+
+    for ( i = binaryNumber1.length, j =binaryNumber2.length;
+        i < 8 && j < 8; i++, j++) {
+        left += '0';
+        numBinary1 = left + binaryNumber1;
+        numBinary2 = left + binaryNumber2;
+    };
+
+    console.log(numBinary1, numBinary2);
+};
+
+showDifference( 14, 31);
 
 
 
