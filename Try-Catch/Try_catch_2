@@ -1,0 +1,6 @@
+function fn1(i) {
+    console.log(i);
+    fn1( i + 1 );
+}
+
+fn1(1);
