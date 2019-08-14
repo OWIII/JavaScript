@@ -184,35 +184,43 @@
 // console.log(result1);
 // console.log(result2);
 
-function showDifference(a, b) {
-    binaryNumber1 = a.toString(2);
-    binaryNumber2 = b.toString(2);
+// function showDifference(a, b) {
+// //     binaryNumber1 = a.toString(2);
+// //     binaryNumber2 = b.toString(2);
+// //
+// //     let left1 = '';
+// //     let left2 = '';
+// //
+// //     for ( i = binaryNumber1.length; i < 8; i++) {
+// //         left1 += '0';
+// //         numBinary1 = left1 + binaryNumber1;
+// //         return numBinary1;
+// //     };
+// //
+// //     for ( j = binaryNumber2.length; j < 8; j++) {
+// //         left2 += '0';
+// //         numBinary2 = left2 + binaryNumber2;
+// //         return numBinary2;
+// //     };
+// //
+// //     let index = 0;
+// //     while ( index < 8) {
+// //         if numBinary1[index] !== numBinary2[index] {
+// //             return (numBinary1, numBinary2);
+// //         }
+// //     }
+// //     console.log(numBinary1, numBinary2);
+// // };
+// //
+// // showDifference( 14, 31);
 
-    let left1 = '';
-    let left2 = '';
+let NewDiv = document.createElement('div');
+	NewDiv.textContent = "Привет";
 
-    for ( i = binaryNumber1.length; i < 8; i++) {
-        left1 += '0';
-        numBinary1 = left1 + binaryNumber1;
-        return numBinary1;
-    };
+document.body.appendChild(NewDiv);
 
-    for ( j = binaryNumber2.length; j < 8; j++) {
-        left2 += '0';
-        numBinary2 = left2 + binaryNumber2;
-        return numBinary2;
-    };
 
-    let index = 0;
-    while ( index < 8) {
-        if numBinary1[index] !== numBinary2[index] {
-            return (numBinary1, numBinary2);
-        }
-    }
-    console.log(numBinary1, numBinary2);
-};
 
-showDifference( 14, 31);
 
 
 
