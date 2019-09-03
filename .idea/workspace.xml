@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16817be4-c4ec-44fa-94f6-25a351f3bb32" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/async.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Async-img/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Async-img/scripts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,9 +15,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -47,10 +48,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.async.js">
-    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:53342/JavaScript/DOM/index.html">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.scripts.js (1)">
     <configuration name="index.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/JavaScript/DOM/index.html">
       <method v="2" />
     </configuration>
@@ -60,23 +58,26 @@
     <configuration name="async.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="async.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="scripts.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="scripts.js" working-dir="$PROJECT_DIR$/Async-img">
+      <method v="2" />
+    </configuration>
     <configuration name="scripts.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="scripts.js" working-dir="$PROJECT_DIR$/DOM">
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.index.html (1)" />
       <item itemvalue="JavaScript Debug.index.html (2)" />
       <item itemvalue="JavaScript Debug.index.html (3)" />
       <item itemvalue="Node.js.scripts.js" />
       <item itemvalue="Node.js.async.js" />
+      <item itemvalue="Node.js.scripts.js (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.scripts.js (1)" />
         <item itemvalue="Node.js.async.js" />
         <item itemvalue="Node.js.scripts.js" />
         <item itemvalue="JavaScript Debug.index.html (3)" />
         <item itemvalue="JavaScript Debug.index.html (2)" />
-        <item itemvalue="JavaScript Debug.index.html (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -96,7 +97,7 @@
       <workItem from="1565997209521" duration="1700000" />
       <workItem from="1566284717141" duration="6422000" />
       <workItem from="1567539261749" duration="237000" />
-      <workItem from="1567540002065" duration="235000" />
+      <workItem from="1567540002065" duration="3208000" />
     </task>
     <task id="LOCAL-00001" summary="Test Webstorm">
       <created>1565996292300</created>
